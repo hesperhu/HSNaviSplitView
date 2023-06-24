@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		C657E6AC2A46D4BE0074D17D /* HSNaviSplitViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657E6AB2A46D4BE0074D17D /* HSNaviSplitViewApp.swift */; };
-		C657E6AE2A46D4BE0074D17D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657E6AD2A46D4BE0074D17D /* ContentView.swift */; };
+		C657E6AE2A46D4BE0074D17D /* HSNaviSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657E6AD2A46D4BE0074D17D /* HSNaviSplitView.swift */; };
 		C657E6B02A46D4BF0074D17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C657E6AF2A46D4BF0074D17D /* Assets.xcassets */; };
 		C657E6B32A46D4BF0074D17D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C657E6B22A46D4BF0074D17D /* Preview Assets.xcassets */; };
+		C657E6C02A46D57B0074D17D /* HSModle in Frameworks */ = {isa = PBXBuildFile; productRef = C657E6BF2A46D57B0074D17D /* HSModle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C657E6A82A46D4BE0074D17D /* HSNaviSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSNaviSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C657E6AB2A46D4BE0074D17D /* HSNaviSplitViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSNaviSplitViewApp.swift; sourceTree = "<group>"; };
-		C657E6AD2A46D4BE0074D17D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C657E6AD2A46D4BE0074D17D /* HSNaviSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSNaviSplitView.swift; sourceTree = "<group>"; };
 		C657E6AF2A46D4BF0074D17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C657E6B22A46D4BF0074D17D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C657E6B42A46D4BF0074D17D /* HSNaviSplitView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HSNaviSplitView.entitlements; sourceTree = "<group>"; };
+		C657E6BD2A46D56D0074D17D /* HSModle */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HSModle; path = ../HSModle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C657E6C02A46D57B0074D17D /* HSModle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +39,10 @@
 		C657E69F2A46D4BE0074D17D = {
 			isa = PBXGroup;
 			children = (
+				C657E6BC2A46D56D0074D17D /* Packages */,
 				C657E6AA2A46D4BE0074D17D /* HSNaviSplitView */,
 				C657E6A92A46D4BE0074D17D /* Products */,
+				C657E6BE2A46D57B0074D17D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				C657E6AB2A46D4BE0074D17D /* HSNaviSplitViewApp.swift */,
-				C657E6AD2A46D4BE0074D17D /* ContentView.swift */,
+				C657E6AD2A46D4BE0074D17D /* HSNaviSplitView.swift */,
 				C657E6AF2A46D4BF0074D17D /* Assets.xcassets */,
 				C657E6B42A46D4BF0074D17D /* HSNaviSplitView.entitlements */,
 				C657E6B12A46D4BF0074D17D /* Preview Content */,
@@ -67,6 +72,21 @@
 				C657E6B22A46D4BF0074D17D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C657E6BC2A46D56D0074D17D /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C657E6BD2A46D56D0074D17D /* HSModle */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		C657E6BE2A46D57B0074D17D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +105,9 @@
 			dependencies = (
 			);
 			name = HSNaviSplitView;
+			packageProductDependencies = (
+				C657E6BF2A46D57B0074D17D /* HSModle */,
+			);
 			productName = HSNaviSplitView;
 			productReference = C657E6A82A46D4BE0074D17D /* HSNaviSplitView.app */;
 			productType = "com.apple.product-type.application";
@@ -139,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C657E6AE2A46D4BE0074D17D /* ContentView.swift in Sources */,
+				C657E6AE2A46D4BE0074D17D /* HSNaviSplitView.swift in Sources */,
 				C657E6AC2A46D4BE0074D17D /* HSNaviSplitViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +359,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C657E6BF2A46D57B0074D17D /* HSModle */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HSModle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C657E6A02A46D4BE0074D17D /* Project object */;
 }
