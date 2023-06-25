@@ -12,6 +12,7 @@
 		C657E6B02A46D4BF0074D17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C657E6AF2A46D4BF0074D17D /* Assets.xcassets */; };
 		C657E6B32A46D4BF0074D17D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C657E6B22A46D4BF0074D17D /* Preview Assets.xcassets */; };
 		C657E6C02A46D57B0074D17D /* HSModle in Frameworks */ = {isa = PBXBuildFile; productRef = C657E6BF2A46D57B0074D17D /* HSModle */; };
+		C657E6C22A46DF2C0074D17D /* HSNaviSplitThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657E6C12A46DF2C0074D17D /* HSNaviSplitThreeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C657E6B22A46D4BF0074D17D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C657E6B42A46D4BF0074D17D /* HSNaviSplitView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HSNaviSplitView.entitlements; sourceTree = "<group>"; };
 		C657E6BD2A46D56D0074D17D /* HSModle */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HSModle; path = ../HSModle; sourceTree = "<group>"; };
+		C657E6C12A46DF2C0074D17D /* HSNaviSplitThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSNaviSplitThreeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				C657E6AB2A46D4BE0074D17D /* HSNaviSplitViewApp.swift */,
 				C657E6AD2A46D4BE0074D17D /* HSNaviSplitView.swift */,
+				C657E6C12A46DF2C0074D17D /* HSNaviSplitThreeView.swift */,
 				C657E6AF2A46D4BF0074D17D /* Assets.xcassets */,
 				C657E6B42A46D4BF0074D17D /* HSNaviSplitView.entitlements */,
 				C657E6B12A46D4BF0074D17D /* Preview Content */,
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C657E6C22A46DF2C0074D17D /* HSNaviSplitThreeView.swift in Sources */,
 				C657E6AE2A46D4BE0074D17D /* HSNaviSplitView.swift in Sources */,
 				C657E6AC2A46D4BE0074D17D /* HSNaviSplitViewApp.swift in Sources */,
 			);

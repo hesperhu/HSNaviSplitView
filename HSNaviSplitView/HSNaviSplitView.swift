@@ -12,7 +12,7 @@ struct HSNaviSplitView: View {
     @State var select: Dish? = nil
     var body: some View {
         NavigationSplitView {
-            List(HSData.dishes, id: \.id, selection: $select) { dish in
+            List(HSData.dishes, selection: $select) { dish in
                 NavigationLink(dish.name, value: dish)
             }
         } detail: {

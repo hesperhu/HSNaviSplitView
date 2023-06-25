@@ -11,7 +11,8 @@ import SwiftUI
 struct HSNaviSplitViewApp: App {
     var body: some Scene {
         WindowGroup {
-            HSNaviSplitView()
+//            HSNaviSplitView()
+            HSNaviSplitThreeView()
         }
     }
 }
